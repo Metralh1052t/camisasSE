@@ -1,0 +1,674 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+#azul {
+    margin: 0 auto;
+    background-color: rgb(86, 50, 204);
+    height: 15vh;
+    display: flex;
+    width: 210vh;
+}
+
+#red2 {
+    width: 210vh;
+    background-color: red;
+    height: 20vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+#red {
+    width: 210vh;
+    background-color: red;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#geral {
+    margin: 0 auto;
+    height: 50vh;
+}
+
+nav {
+    width: 80% ;
+    height: 15vh;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+nav a {
+    justify-content: center;
+    display: flex;
+    text-align:left;
+    align-items: center;
+    float: left;
+    color:black;
+    padding: 30px;
+}
+
+#buto {
+    color: black;
+    background-color: rgb(68, 201, 35);
+    padding: 18px;
+    height: 8vh;
+    width: 28vh;
+    border-radius: 10vh;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    right: 20vh;
+    bottom: 7vh;
+}
+
+#sa {
+    display: flex;
+    color: white;
+    height: 32vh;
+    position: relative;
+    right: 30px;
+    bottom: 55px;
+}
+
+#seat {
+    display: flex;
+    position:relative;
+    height: 0vh;
+    width: 80vh;
+    border-radius: 200px;
+    padding: 5%;
+    right: 225px;
+    bottom: 5px;
+    font-size: 18px;
+}
+
+#camisinha{
+    display: flex;
+    position: relative;
+    left: 635px;
+    height: 65vh;
+    bottom: -20vh;
+}
+
+.precisanao {
+    align-content: center;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+#Aquinos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#camisas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+#camisas2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    color: white;
+}
+
+#sobre{
+    display: flex;
+    position: relative;
+    font-size: 50px;
+    color: white;
+}
+
+#whats{
+    display: flex;
+    position: relative;
+    left: 800px;
+    height: 50px;
+    top: 25px;
+}
+
+#you{
+    display: flex;
+    position: relative;
+    left: 825px;
+    height: 50px;
+    top: 25px;
+}
+
+#insta{
+    display: flex;
+    position: relative;
+    left: 830px;
+    height: 80px;
+    top: 10px;
+}
+
+#carrinho {
+    display: flex;
+    position: relative;
+    left: 860px;
+    height: 77px;
+    top: 10px;
+    color: aqua;
+}
+
+#perfil {
+    width:8vh;
+    height:8vh;
+    display: flex;
+    position: relative;
+    left: -180px;
+}
+
+#perfil2 {
+
+}
+
+#username {
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    left: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+#username2 {
+    
+}
+
+.cartaz {
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    border-radius: 50px;
+}
+
+.time {
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seasson {
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preco {
+    color: rgb(77, 192, 24);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#promo {
+    color: rgb(77, 30, 231);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 2vw;
+}
+
+#dias {
+    color: red;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 3vw;
+}
+
+.principal {
+    display: inline-block;
+    border-radius: 10px;
+    height: 35vh;
+    width: 28vh;
+    border-radius: 10px;
+    background-color: white;
+    position: relative; 
+    margin: 10px;
+    left: 15px;
+}
+
+
+#fundo {
+    background-image: url("../img/fundo_blue_red.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vw;
+}
+
+#posy {
+    height: 30vh;
+    width: 30vh;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 80px;
+}
+
+#descricao {
+    height: 40vh;
+    width: 80%;
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#barcelona {
+    height: 30vh;
+    width: 35vh;
+    position: relative;
+    left: -15px;
+}
+
+#promocoes2 {
+    font-size: 2vw;
+}
+
+#compre {
+    background-color: greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    height: 3vw;
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 215px;
+    right: -475px;
+    font-weight: bold;
+}
+
+#compre2 {
+    background-color: orange;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 3vw;
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 215px;
+    left: 475px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#custo {
+    color: red;
+}
+
+#custo2 {
+    color: rgb(7, 202, 66);
+    font-size: 2vw;
+}
+
+.titulo {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: -60vh;
+    position: relative;
+    bottom: 250px;
+    right: -140px;
+}
+
+
+#mega {
+    background-color: white;
+    height: 65vh;
+    width: 50vh;
+    border-radius: 15%;
+    margin: 0 auto;
+}
+
+#confere {
+    height: 20vh;
+    width: 20vh;
+    margin: auto;
+    display: block;
+}
+
+#confere2 {
+    height: 20vh;
+    width: 20vh;
+    margin: auto;
+    display: block;
+}
+
+#back {
+    height: 10vh;
+    width: 10vh;
+    position: relative;
+    left: 100px;
+}
+
+#back2 {
+    display: flex;
+    height: 60px;
+    position: relative;
+    right: -16px;
+    bottom: 70px;
+    top: 18px;
+    display: inline-block;
+}
+
+.script {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+
+.script2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.script3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.script4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.script5 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+    align-content: center;
+    display: block;
+    margin: auto;
+    height: 2vw;
+}
+
+
+#texto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#person {
+    height: 10vh;
+    width: 10vh;
+    margin: auto;
+    display: block;
+}
+
+#person2 {
+    height: 5vh;
+    width: 5vh;
+    margin: auto;
+    display: flex;
+    float: left;
+    left: 160px;
+    position: relative;
+    bottom: 6px;
+}
+
+#confir {
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    width: 25vh;
+    height: 6vh;
+}
+
+#confir2 {
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    width: 25vh;
+    height: 6vh;
+}
+
+.trem {
+    border-radius: 10px;
+    height: 5vh;
+    width: 35vh;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+.trem2 {
+    width: 35vh;
+    height: 2vh;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.trem3 {
+    height: 5vh;
+    width: 35vh;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.link {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#link2 {
+    color: rgb(7, 202, 66);
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#link3 {
+    color: blue;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#mensagem {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container1 {
+    width: 40%;
+    display: inline-block;
+    font-size: 1vw;
+    text-align: center;
+    min-width:40vw;
+}
+
+#container2 {
+     width: 50%;
+     display: inline-block;
+     margin-right: 0vw;
+     font-size: 1vw;
+     text-align: center;
+     min-width:40vw;
+     float: right;
+}
+
+#container3 {
+    width: 40%;
+     display: inline-block;
+     margin-right: 0vw;
+     font-size: 1vw;
+     text-align: center;
+     min-width:40vw;
+     float: right;
+     background-color: white;
+     border-radius: 10px;
+     position: relative;
+     right: 100px;
+     height: 48vh;
+     align-content: center;
+}
+
+#finish {
+    background-color: orange;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    height: 7vh;
+    width: 35vh;
+    font-weight: bold;
+}
+
+#finish2 {
+    background-color: rgb(45, 199, 45);
+    color: rgb(24, 78, 194);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    height: 7vh;
+    width: 35vh;
+    font-weight: bold;
+}
+
+#estrelas {
+    margin: auto;
+    display: block;
+    height: 15vh;
+    width: 35vh;
+}
+
+.estrelas2 {
+    margin: auto;
+    display: block;
+    height: 7vh;
+    width: 15vh;
+}
+
+#avaliate {
+    height: 6vw;
+    width: 35vh;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#detail {
+    color: black;
+    padding: 10px;
+    font-size: medium;
+}
+
+#detail2 {
+    padding: 10px;
+    color: black;
+    font-size: medium;
+}
+
+.placa {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#edu {
+    position: relative;
+    left: 40px;
+}
+
+.central {
+    height: 20vh;
+    width: 20vh;
+    display: block;
+    margin: auto;
+    bottom: -10px;
+    position: relative;
+}
+
+.central2 {
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    color: red;
+    bottom: -2vh;
+}
+
+.central3 {
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    color: blue;
+    bottom: -2vh;
+}
+
+.central4 {
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    bottom: -3vh;
+    color: rgb(20, 204, 20);
+}
+
+#madrid {
+    height: 20vh;
+    width: 25vh;
+    display: block;
+    margin: auto;
+    bottom: -10px;
+    position: relative;
+}
+
+#bayern {
+    font-size: 20px;
+}
+
+#defeito {
+    bottom: -2vh;
+}
+
+#feito2 {
+    bottom: 2px;
+}
+
+#feito3 {
+    bottom: 2px;
+}
+
+#feito4 {
+    bottom: -6px;
+}
